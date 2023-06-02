@@ -32,7 +32,6 @@ function AfficherSlides(nbr) {
     slides[i].style.display = "none";
   }
 
-  
   // Retirer "active" de tous les points
   for (let i = 0; i < dots.length; i++) {
     dots[i].classList.remove("active");
