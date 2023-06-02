@@ -6,7 +6,7 @@ function ChangerSlides(nbr) {
   AfficherSlides(slideIndex);
 }
 
-// Fonction pour la slide actuelle
+//  Fonction pour la slide actuelle
 function currentSlide(nbr) {
   slideIndex = nbr;
   AfficherSlides(slideIndex);
