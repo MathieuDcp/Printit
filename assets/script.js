@@ -6,13 +6,13 @@ function ChangerSlides(nbr) {
   AfficherSlides(slideIndex);
 }
 
-//  Fonction pour la slide actuelle
+// Fonction pour la slide actuelle
 function currentSlide(nbr) {
   slideIndex = nbr;
   AfficherSlides(slideIndex);
 }
 
-// Fonction permettant d'afficher les slides avec fléches et doits
+//Fonction permettant d'afficher les slides avec fléches et doits
 function AfficherSlides(nbr) {
   const slides = document.getElementsByClassName("slides");
   const dots = document.getElementsByClassName("dot");
