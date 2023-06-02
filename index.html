@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
-	<script src="assets/script.js"></script>
+	<script defer src="assets/script.js"></script>
 </head>
 <body>
 <header class="container1">
@@ -24,31 +24,31 @@
 				<p>Impressions tous formats</p>
 				<span>en boutique et en ligne</span>
 			</div>
-            <img class="img-size" src="assets/images/im1.jpg">
+            <img class="img-size" src="assets/images/im1.jpg" alt="Slide 1">
         </div>
         <div class="slides">
 			<div class="pose">
 				<p>Tirages haute définition grand format</p>
 				<span>pour vos bureaux et events</span>	
 			</div>
-            <img class="img-size" src="assets/images/im2.jpg">
+            <img class="img-size" src="assets/images/im2.jpg" alt="Slide 2">
         </div>
         <div class="slides">
 			<div class="pose">
 				<p>Grand choix de couleurs</p>
 				<span>de CMJN aux pantones</span>
 			</div>
-            <img class="img-size" src="assets/images/im3.jpg">
+            <img class="img-size" src="assets/images/im3.jpg" alt="Slide 3">
         </div>
         <div class="slides">
 			<div class="pose">
 				<p>Autocollants</p>
 				<span>Avec découpe laser sur mesure</span>
 			</div>
-            <img class="img-size" src="assets/images/im4.jpg">
+            <img class="img-size" src="assets/images/im4.jpg" alt="Slide 4">
         </div>
-            <img src="assets/images/arrow_left.png" class="bouton1" id="g" onclick="plusSlides(-1)"/>
-            <img src="assets/images/arrow_right.png" class="bouton1" id="d" onclick="plusSlides(1)"/>
+            <img src="assets/images/arrow_left.png" alt="flèche gauche " class="bouton1" id="g" onclick="ChangerSlides(-1)">
+            <img src="assets/images/arrow_right.png" alt="flèche droite" class="bouton1" id="d" onclick="ChangerSlides(1)">
         </div>
         <div class="point">
             <span class="dot" onclick="currentSlide(1)"></span> 
@@ -125,7 +125,7 @@
 					<h3>Se rendre en boutique</h3>
 					<p>5, rue Yves Noël,<br>
 						35200 Rennes<br>
-						<img class="inline-icon" src="./assets/images/metro.png" alt="metro"/> Clémenceau</p>
+						<img class="inline-icon" src="./assets/images/metro.png" alt="metro"> Clémenceau</p>
 				</div>
 			</div>
 			<div>
@@ -146,7 +146,7 @@
 	</div>
 	<div>
 		<p>5, rue Yves Noël,35200 Rennes<br>
-			<img src="./assets/images/metro.png" alt="metro"/> Clémenceau</p>
+			<img src="./assets/images/metro.png" alt="metro"> Clémenceau</p>
 	</div>
 	<div>
 		<a href="mailto:contact@print-it.tld" class="btn">Nous écrire</a>
@@ -156,6 +156,5 @@
 		<img class="footer-logo" src="./assets/images/logo.png" alt="Print it ! Impressions d'entreprises" >
 	</div>
 </footer>
-<script src="./assets/script.js"></script>
 </body>
 </html>
