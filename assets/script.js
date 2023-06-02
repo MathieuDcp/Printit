@@ -12,7 +12,7 @@ function currentSlide(nbr) {
   AfficherSlides(slideIndex);
 }
 
-//Fonction permettant d'afficher les slides avec fléches et doits
+// Fonction permettant d'afficher les slides avec fléches et doits
 function AfficherSlides(nbr) {
   const slides = document.getElementsByClassName("slides");
   const dots = document.getElementsByClassName("dot");
